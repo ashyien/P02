@@ -1,0 +1,171 @@
+/* Loading Fonts */
+@font-face {
+  font-family: SF_Bold;
+  src: url("../assets/font/bold.otf") format("opentype");
+}
+@font-face {
+  font-family: SF_Semibold;
+  src: url("../assets/font/semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: SF_Medium;
+  src: url("../assets/font/medium.otf") format("opentype");
+}
+@font-face {
+  font-family: SF_Regular;
+  src: url("../assets/font/regular.otf") format("opentype");
+}
+
+/* Individual Styling of Elements */
+.box {
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  cursor: default;
+}
+
+body,
+html {
+  font-family: SF_Regular, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  font-size: 4rem;
+  line-height: 130%;
+}
+
+h1 {
+  font-family: SF_Bold, sans-serif;
+  font-size: 4rem;
+}
+h2 {
+  font-family: SF_Bold, sans-serif;
+  font-size: 3rem;
+}
+h3 {
+  font-family: SF_Bold, sans-serif;
+  font-size: 2rem;
+}
+h4 {
+  font-family: SF_Medium, sans-serif;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: SF_Regular, sans-serif;
+  font-size: 1.1rem;
+}
+
+ol {
+  margin-left: 2%;
+}
+
+ol > li {
+  font-family: SF_Medium, sans-serif;
+  font-size: 1rem;
+  margin: 0 0 7px 0;
+}
+
+.button-meta {
+  font-family: SF_Bold, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.margin-left-v4 {
+  margin-left: 2em;
+}
+
+.margin-bottom-lv2 {
+  margin-bottom: 12px;
+}
+
+.margin-bottom-lv3 {
+  margin-bottom: 18px;
+}
+
+.margin-bottom-lv4 {
+  margin-bottom: 24px;
+}
+
+.margin-bottom-lv8 {
+  margin-bottom: 48px;
+}
+
+.margin-bottom-lv16 {
+  margin-bottom: 96px;
+}
+
+.margin-top-lv2 {
+  margin-top: 12px;
+}
+
+.margin-top-lv4 {
+  margin-top: 24px;
+}
+
+.margin-top-lv8 {
+  margin-top: 48px;
+}
+
+.margin-top-lv16 {
+  margin-top: 96px;
+}
+
+/* colours */
+
+.black {
+  color: black;
+}
+
+.red {
+  color: #e26259;
+}
+
+/* sizing */
+.browser-sizing {
+  height: 5em;
+}
+
+.brotion-sizing {
+  height: 4em;
+}
+
+.x-sizing {
+  height: 2em;
+}
+
+/* opacity */
+.opacity-50 {
+  opacity: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+  }
+
+  .item-2 {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #menu-row {
+    display: none;
+  }
+}
