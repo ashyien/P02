@@ -197,3 +197,9 @@ ol > li {
     display: none;
   }
 }
+
+input,
+select,
+textarea {
+  color: white;
+}
