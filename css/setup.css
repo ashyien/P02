@@ -192,7 +192,7 @@ ol > li {
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1146px) {
   #menu-row {
     display: none;
   }
