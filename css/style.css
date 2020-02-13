@@ -30,7 +30,7 @@ a:hover {
 }
 
 .brotion-sizing {
-  width: 9em;
+  width: 6em;
 }
 
 nav {
@@ -102,6 +102,7 @@ nav {
 #item-content {
   font-family: SF_Semibold, sans-serif;
   grid-column-start: 2;
+  padding-left: 2em;
 }
 
 .typography-row {
@@ -133,6 +134,7 @@ nav {
   grid-template-columns: 50% auto;
 
   padding-bottom: 3%;
+  padding-left: 2em;
 
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
@@ -185,6 +187,7 @@ input[type="radio"]:hover {
   grid-column-start: 2;
   /* creating new grid */
   padding-bottom: 3%;
+  padding-left: 2em;
 
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
@@ -195,6 +198,7 @@ input[type="radio"]:hover {
   grid-column-start: 2;
   /* creating new grid */
   padding-bottom: 3%;
+  padding-left: 2em;
 
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
@@ -205,6 +209,7 @@ input[type="radio"]:hover {
   grid-column-start: 2;
   /* creating new grid */
   padding-bottom: 3%;
+  padding-left: 2em;
 
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
@@ -215,6 +220,7 @@ input[type="radio"]:hover {
   grid-column-start: 2;
   /* creating new grid */
   padding-bottom: 3%;
+  padding-left: 2em;
 
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
@@ -244,6 +250,7 @@ h4 {
   grid-column-start: 2;
   color: black;
   padding-bottom: 3%;
+  padding-left: 2em;
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
 }
@@ -283,6 +290,7 @@ h4 {
   grid-column-start: 2;
 
   padding-bottom: 3%;
+  padding-left: 2em;
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
 }
@@ -352,6 +360,7 @@ h4 {
   grid-column-start: 2;
 
   padding-bottom: 3%;
+  padding-left: 2em;
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
 }
