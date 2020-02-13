@@ -16,6 +16,35 @@
   src: url("../assets/font/regular.otf") format("opentype");
 }
 
+/* OPPOSIT */
+
+@font-face {
+  font-family: Opposit_Heavy;
+  src: url("../assets/font/Opposit/Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Opposit_ExtraBold;
+  src: url("../assets/font/Opposit/ExtraBold.otf") format("opentype");
+}
+
+/* DRUK */
+
+@font-face {
+  font-family: Druk;
+  src: url("../assets/font/Druk/Medium.otf") format("opentype");
+}
+
+/* ADIEU */
+
+@font-face {
+  font-family: Adieu_Light;
+  src: url("../assets/font/Adieu/Light.otf") format("opentype");
+}
+
+
+
+
 /* Individual Styling of Elements */
 .box {
   align-items: center;
@@ -32,7 +61,7 @@
 
 body,
 html {
-  font-family: SF_Regular, sans-serif;
+  font-family: Opposit_Heavy;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -46,25 +75,30 @@ html {
 }
 
 h1 {
-  font-family: SF_Bold, sans-serif;
+  font-family: Opposit_Heavy, sans-serif;
   font-size: 4rem;
+  color: #fff;
 }
 h2 {
-  font-family: SF_Bold, sans-serif;
+  font-family: Opposit_Heavy, sans-serif;
   font-size: 3rem;
+  color: #fff;
 }
 h3 {
-  font-family: SF_Bold, sans-serif;
+  font-family: Opposit_Heavy, sans-serif;
   font-size: 2rem;
+  color: #fff;
 }
 h4 {
-  font-family: SF_Medium, sans-serif;
+  font-family: Opposit_ExtraBold, sans-serif;
   font-size: 1.3rem;
+  color: #fff;
 }
 
 p {
-  font-family: SF_Regular, sans-serif;
+  font-family: Adieu_Light;
   font-size: 1.1rem;
+  color: #fff;
 }
 
 ol {
