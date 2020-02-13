@@ -42,9 +42,6 @@
   src: url("../assets/font/Adieu/Light.otf") format("opentype");
 }
 
-
-
-
 /* Individual Styling of Elements */
 .box {
   align-items: center;
@@ -109,9 +106,8 @@ ol > li {
   font-family: SF_Medium, sans-serif;
   font-size: 1rem;
   margin: 0 0 7px 0;
+  color: white;
 }
-
-
 
 .button-meta {
   font-family: SF_Bold, sans-serif;
@@ -172,10 +168,6 @@ ol > li {
 /* sizing */
 .browser-sizing {
   height: 5em;
-}
-
-.brotion-sizing {
-  height: 4em;
 }
 
 .x-sizing {
