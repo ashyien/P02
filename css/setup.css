@@ -192,14 +192,8 @@ ol > li {
   }
 }
 
-@media screen and (max-width: 1146px) {
+@media screen and (max-width: 1080px) {
   #menu-row {
     display: none;
   }
-}
-
-input,
-select,
-textarea {
-  color: white;
 }
