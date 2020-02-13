@@ -1,5 +1,5 @@
 * {
-  background-color: #082A90;
+  background-color: #082a90;
 }
 
 /* adding the sticky nav bar */
@@ -89,7 +89,7 @@ nav {
   font-family: SF_Medium, sans-serif;
   display: grid;
   grid-column-start: 2;
-  grid-gap: 3%;
+  grid-gap: 1%;
   grid-template-columns: minmax(0, 25%) auto;
   /* justify-self: center; */
 }
@@ -216,9 +216,6 @@ input[type="radio"]:hover {
   border-bottom: solid 0.5px #dedddc;
   border-style: dotted;
 }
-
-
-
 
 .company-row-1 {
   grid-column-start: 1;
