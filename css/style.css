@@ -433,3 +433,9 @@ h4 {
 .card-sizing {
   height: 1.5em;
 }
+
+/* new changes */
+
+.colour-sizing {
+  width: 7em;
+}
